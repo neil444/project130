@@ -69,6 +69,7 @@ del df["st_raderr2"]
 del df["st_radlim"]
 del df["rowupdate"]
 del df["pl_facility"]
+del df["Luminosity"]
 print(df.shape)
 print(list(df))
 df = df.rename({
